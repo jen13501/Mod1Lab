@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="currentTimeApp">
+
+<head>
+    <title>Angular Fundamentals</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+</head>
+
+<body ng-controller="currentTimeController">
+    <div class="container">
+        <h1>Module 1 Homework</h1>
+        <pre>The current date is: "{{time | date:'yyyy-MM-dd HH:mm:ss Z'}}"</pre>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="currentTimeApp.js"></script>
+</body>
+
+</html>
